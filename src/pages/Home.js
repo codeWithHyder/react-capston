@@ -79,6 +79,7 @@ function Home() {
               className="search-input"
               value={searchValue}
             />
+            
           </div>
           <div className="coins-container flex limit">{checkQuery()}</div>
         </>
