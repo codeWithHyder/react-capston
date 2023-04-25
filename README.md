@@ -1,9 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ##Presentation
-**[Presentation]** ('https://www.loom.com/share/6ee7d712fd3a46ff83521a76787a2d57')
+ ('https://www.loom.com/share/6ee7d712fd3a46ff83521a76787a2d57')
 
-# Cryptoist
+# CRYPTOIST
 
 > This project is a SPA built around coingeco's Api; it fetches the crypto market's data and displays it to the user for informative purposes in well-structured and interactive UI.
 
