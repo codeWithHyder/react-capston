@@ -14,17 +14,17 @@
 
 ## Live Demo (if available)
 
-[**See Project 🚀**](live demo will be available after final approval)
+[**See Project 🚀**](Will be available after final approval)
 
 ## Screenshot
 
 ### Desktop
 
-![Preview]()
+![Preview](not available yet)
 
 ### Mobile
 
-![Preview]()
+![Preview](not available yet)
 
 ## Getting Started
 
@@ -81,7 +81,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### Socials :
 
-- GitHub: [@Hyder](https://github.com/codeWithHyder)
+- GitHub: [@hyder](https://github.com/codeWithHyder)
 - Twitter: [@Hyder](https://twitter.com/@hyder3512)
 - LinkedIn: [@Hyder](https://www.linkedin.com/in/ghulam-hyder-dar/)
 
