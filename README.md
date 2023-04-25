@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)<img src="./assets/icon.png" alt="logo"/>
+![](https://img.shields.io/badge/Microverse-blueviolet)[<img src="./assets/icon.png" alt="logo"/>]
 
 ##Presentation
  ('https://www.loom.com/share/6ee7d712fd3a46ff83521a76787a2d57')
@@ -17,7 +17,7 @@
 
 ## Live Demo (if available)
 
-[**See Project 🚀**](https://react-reduxtoolkit-capston.onrender.com/)
+[**See live Project 🚀**](https://react-reduxtoolkit-capston.onrender.com/)
 
 ## Screenshot
 
