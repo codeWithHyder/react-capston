@@ -4,7 +4,7 @@
 
 <div align="center">
  
-  <img src="../icon.png" alt="logo" width="140"  height="auto" />
+  <img src="./src/icon.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 # CRYPTOIST
