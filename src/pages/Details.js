@@ -2,9 +2,9 @@ import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import DOMPurify from 'dompurify';
+import Loader from '../components/Loader';
+import { fetchDetails } from '../redux/Details/details';
 
-import Loader from '../Components/Loader';
-import { fetchDetails } from '../Redux/Details/details';
 
 const Details = () => {
   const dispatch = useDispatch();

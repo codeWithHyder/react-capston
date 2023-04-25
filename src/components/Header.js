@@ -13,12 +13,12 @@ const Header = () => {
         onClick={() => navigate('/')}
         aria-hidden="true"
       >
-        <IoChevronBackSharp>2023</IoChevronBackSharp>
+        <IoChevronBackSharp /><span className="year">2023</span>
       </div>
       <p className="header-text">
         <Link className="logo flex" to="/">
           <img src={`${icon}`} alt="application logo" />
-          Cryptoist
+          CRYPTOIST
         </Link>
       </p>
       <p className="setting-icon header-icon">
