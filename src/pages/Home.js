@@ -3,11 +3,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { v4 as uniqueId } from 'uuid';
 import { useNavigate } from 'react-router-dom';
 
-import Loader from '../Components/Loader';
-import { fetchCoins } from '../Redux/Coins/coins';
-import Coin from '../Components/Coin';
+import Loader from '../components/Loader';
+import { fetchCoins } from '../redux/Coins/coins';
+import Coin from '../components/Coin';
 
-const Home = () => {
+function Home() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { coinsArray, loading } = useSelector((state) => state.coins);
@@ -85,6 +85,6 @@ const Home = () => {
       )}
     </div>
   );
-};
+}
 
 export default Home;

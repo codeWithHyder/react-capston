@@ -3,7 +3,7 @@ import { IoChevronBackSharp } from 'react-icons/io5';
 import { useNavigate, Link } from 'react-router-dom';
 import icon from '../assets/icon.png';
 
-const Header = () => {
+function Header() {
   const navigate = useNavigate();
 
   return (
@@ -13,12 +13,13 @@ const Header = () => {
         onClick={() => navigate('/')}
         aria-hidden="true"
       >
-        <IoChevronBackSharp>2023</IoChevronBackSharp>
+        <IoChevronBackSharp />
+        <span className="year">2023</span>
       </div>
       <p className="header-text">
         <Link className="logo flex" to="/">
           <img src={`${icon}`} alt="application logo" />
-          Cryptoist
+          CRYPTOIST
         </Link>
       </p>
       <p className="setting-icon header-icon">
@@ -26,6 +27,6 @@ const Header = () => {
       </p>
     </div>
   );
-};
+}
 
 export default Header;

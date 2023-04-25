@@ -1,8 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/Store';
+
 import Header from './components/Header';
-import Details from './Pages/Details';
+import Details from './pages/Details';
 import Home from './pages/Home';
 import NoMatch from './pages/noMatch';
 import './App.css';
@@ -10,7 +11,7 @@ import './App.css';
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
+      <div className="app">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

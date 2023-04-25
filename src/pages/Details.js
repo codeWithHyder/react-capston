@@ -2,11 +2,10 @@ import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import DOMPurify from 'dompurify';
+import Loader from '../components/Loader';
+import { fetchDetails } from '../redux/Details/details';
 
-import Loader from '../Components/Loader';
-import { fetchDetails } from '../Redux/Details/details';
-
-const Details = () => {
+function Details() {
   const dispatch = useDispatch();
   const { coinId } = useParams();
   const { coinDetails, loading } = useSelector((state) => state.details);
@@ -67,6 +66,6 @@ const Details = () => {
       )}
     </div>
   );
-};
+}
 
 export default Details;

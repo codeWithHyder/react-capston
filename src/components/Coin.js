@@ -2,32 +2,34 @@ import { PropTypes } from 'prop-types';
 import { FiArrowUpRight, FiArrowDown } from 'react-icons/fi';
 
 // prettier-ignore
-const Coin = ({
+function Coin({
   image, name, currentPrice, priceChangePercentage24h,
-}) => (
-  <div className="coin-card flex">
-    <img src={image} alt="coin brand" />
-    <div className="coin-details">
-      <p className="coin-name">{name}</p>
-      {/* prettier-ignore */}
-      <p className="coin-price">
-        $
-        {currentPrice}
-      </p>
-      {priceChangePercentage24h > 0 ? (
-        <span className="coin-up">
-          <FiArrowUpRight />
-          {priceChangePercentage24h}
-        </span>
-      ) : (
-        <span className="coin-down">
-          <FiArrowDown />
-          {priceChangePercentage24h}
-        </span>
-      )}
+}) {
+  return (
+    <div className="coin-card flex">
+      <img src={image} alt="coin brand" />
+      <div className="coin-details">
+        <p className="coin-name">{name}</p>
+        {/* prettier-ignore */}
+        <p className="coin-price">
+          $
+          {currentPrice}
+        </p>
+        {priceChangePercentage24h > 0 ? (
+          <span className="coin-up">
+            <FiArrowUpRight />
+            {priceChangePercentage24h}
+          </span>
+        ) : (
+          <span className="coin-down">
+            <FiArrowDown />
+            {priceChangePercentage24h}
+          </span>
+        )}
+      </div>
     </div>
-  </div>
-);
+  );
+}
 
 Coin.propTypes = {
   image: PropTypes.string.isRequired,
