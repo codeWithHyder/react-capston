@@ -169,7 +169,7 @@ a:hover {
 .coin-card:hover {
   scale: 1.03;
   cursor: pointer;
-  transform: scaleX(1rem);
+  transform: scaleX(0.5rem);
   color: burlywood;
 }
 
