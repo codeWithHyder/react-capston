@@ -163,13 +163,13 @@ a:hover {
   background-color: rgba(46, 47, 53, 0.801);
   backdrop-filter: blur(120px);
   border-radius: 1rem;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.5s;
 }
 
 .coin-card:hover {
   scale: 1.03;
   cursor: pointer;
-  transform: scaleX(0.5rem);
+  transform: scale(1.15rem);
   color: burlywood;
 }
 
