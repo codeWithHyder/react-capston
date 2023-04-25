@@ -1,3 +1,4 @@
+
 <a name="readme-top"></a>
 
 
@@ -5,6 +6,9 @@
  
   <img src="./icon.png" alt="logo" width="140"  height="auto" />
   <br/>
+
+# CRYPTOIST
+
 
   <h3><b>CRYPTOIST</b></h3>
 
@@ -60,13 +64,6 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
 
@@ -155,7 +152,7 @@ You can deploy this project using:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Ghulam Hyder Dar**
 
 - GitHub: [@codeWithHyder](https://github.com/codeWithHyder)
 - Twitter: [@Hyder](https://twitter.com/@hyder3512)
