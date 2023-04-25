@@ -17,7 +17,7 @@
 
 ## Live Demo (if available)
 
-[**See Project 🚀**](Will be available after final approval)
+[**See Project 🚀**](https://react-reduxtoolkit-capston.onrender.com/)
 
 ## Screenshot
 
