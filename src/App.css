@@ -14,7 +14,7 @@
 body {
   font-size: 100%;
   font-family: 'Poppins', 'Roboto', sans-serif;
-  background-color: rgb(25, 25, 58);
+  background-color: rgb(95, 95, 231);
 }
 
 img {
@@ -65,7 +65,7 @@ a:hover {
 .App {
   width: 100%;
   overflow-x: hidden;
-  background-color: rgb(25, 25, 58);
+  background-color: rgb(102, 102, 219);
   color: #fff;
   min-height: 100vh;
 }
@@ -160,7 +160,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.123);
+  background-color: rgba(46, 47, 53, 0.801);
   backdrop-filter: blur(120px);
   border-radius: 1rem;
   transition: ease-in-out 0.3s;

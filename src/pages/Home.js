@@ -7,7 +7,7 @@ import Loader from '../components/Loader';
 import { fetchCoins } from '../redux/Coins/coins';
 import Coin from '../components/Coin';
 
-const Home = () => {
+function Home() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { coinsArray, loading } = useSelector((state) => state.coins);
@@ -85,6 +85,6 @@ const Home = () => {
       )}
     </div>
   );
-};
+}
 
 export default Home;

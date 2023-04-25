@@ -5,8 +5,7 @@ import DOMPurify from 'dompurify';
 import Loader from '../components/Loader';
 import { fetchDetails } from '../redux/Details/details';
 
-
-const Details = () => {
+function Details() {
   const dispatch = useDispatch();
   const { coinId } = useParams();
   const { coinDetails, loading } = useSelector((state) => state.details);
@@ -67,6 +66,6 @@ const Details = () => {
       )}
     </div>
   );
-};
+}
 
 export default Details;
