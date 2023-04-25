@@ -13,8 +13,8 @@
 
 body {
   font-size: 100%;
-  font-family: 'Poppins', 'Roboto', sans-serif;
-  background-color: rgb(95, 95, 231);
+  font-family: Poppins, Roboto, sans-serif;
+  background-color: rgb(95 95 231);
 }
 
 img {
@@ -28,28 +28,26 @@ a {
 }
 
 a:hover {
-  color: rgb(25, 25, 58);
+  color: rgb(25 25 58);
 }
 
 ::-webkit-scrollbar {
   width: 0.7rem;
-  background-color: rgba(255, 255, 255, 0.123);
+  background-color: rgb(255 255 255 / 12.3%);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: rgb(172, 172, 172);
+  background-color: rgb(172 172 172);
   border-radius: 10px;
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 6px rgb(0 0 0 / 50%);
 }
 
 .flex {
@@ -62,10 +60,10 @@ a:hover {
 
 /* App styling */
 
-.App {
+.app {
   width: 100%;
   overflow-x: hidden;
-  background-color: rgb(102, 102, 219);
+  background-color: rgb(102 102 219);
   color: #fff;
   min-height: 100vh;
 }
@@ -74,7 +72,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255 255 255);
   color: black;
   padding: 0.7rem 1rem;
   font-size: 1.1rem;
@@ -87,7 +85,7 @@ a:hover {
 }
 
 .header-text:hover {
-  color: rgb(25, 25, 58);
+  color: rgb(25 25 58);
 }
 
 .logo {
@@ -128,7 +126,7 @@ a:hover {
   display: block;
   width: 80%;
   padding: 0.8rem 2rem;
-  background-color: rgb(196, 192, 192);
+  background-color: rgb(196 192 192);
   border: none;
   border-radius: 2rem;
   margin-bottom: 2rem;
@@ -160,7 +158,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: rgba(46, 47, 53, 0.801);
+  background-color: rgb(46 47 53 / 80.1%);
   backdrop-filter: blur(120px);
   border-radius: 1rem;
   transition: ease-in-out 0.5s;
@@ -169,7 +167,7 @@ a:hover {
 .coin-card:hover {
   scale: 1.03;
   cursor: pointer;
-  transform: scale(1.15rem);
+  transform: scale(1.05);
   color: burlywood;
 }
 
@@ -184,11 +182,11 @@ a:hover {
 }
 
 .coin-up {
-  color: rgb(80, 255, 80);
+  color: rgb(80 255 80);
 }
 
 .coin-down {
-  color: rgb(251, 58, 58);
+  color: rgb(251 58 58);
 }
 
 .details-container {
@@ -214,11 +212,11 @@ a:hover {
 .details-list-item {
   padding: 0.3rem 0.7rem;
   justify-content: space-between;
-  background-color: rgb(34, 34, 92);
+  background-color: rgb(34 34 92);
 }
 
 .details-list-item:nth-child(2n) {
-  background-color: rgb(59, 59, 122);
+  background-color: rgb(59 59 122);
 }
 
 .details-list-item h3 {
@@ -253,8 +251,8 @@ a:hover {
   }
 
   .coins-container {
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex;
+    flex-flow: row wrap;
   }
 
   .details-container {

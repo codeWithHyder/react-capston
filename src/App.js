@@ -11,7 +11,7 @@ import './App.css';
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
+      <div className="app">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
