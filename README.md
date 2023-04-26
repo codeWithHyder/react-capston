@@ -37,7 +37,7 @@
 
 # 📖 [CRYPTOIST] <a name="about-project"></a>
 
-#[Project Demo] (https://www.loom.com/share/6ee7d712fd3a46ff83521a76787a2d57)
+#[Project Demo] (https://www.loom.com/share/fcac618c02db4487a5d66998e7158cb1)
 
 
 
