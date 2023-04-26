@@ -1,111 +1,221 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)<img src="./assets/icon.png" alt="logo"/>
 
-##Presentation
- ('https://www.loom.com/share/6ee7d712fd3a46ff83521a76787a2d57')
+<a name="readme-top"></a>
+
+
+<div align="center">
+ 
+  <img src="./src/assets/icon.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
 # CRYPTOIST
 
-> This project is a SPA built around coingeco's Api; it fetches the crypto market's data and displays it to the user for informative purposes in well-structured and interactive UI.
 
-## Built With
+  <h3><b>CRYPTOIST</b></h3>
 
-- HTML, CSS and JavaScript.
-- React.js.
-- Node.js(npm).
-- Jest(for testing).
+</div>
+
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [CRYPTOIST] <a name="about-project"></a>
+
+#[Project Demo] (https://www.loom.com/share/14098e73a85945ab840fa5d7c5c140ea)
+
+
+
+**[CRYPTOIST]** This project is a SPA built around coingeco's Api; it fetches the crypto market's data and displays it to the user for informative purposes in well-structured and interactive UI with help of Redux toolkit  builtin  middle ware Asyncthunk .
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+- HTML5
+- CSS3
+- JS ES6
+- React
+- Redux Toolkit 
+- Redux toolkit Middleware Asyncthunk
+- Jest 
 - CoinGeco API.
 
-## Live Demo (if available)
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-[**See Project 🚀**](https://react-reduxtoolkit-capston.onrender.com/)
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-## Screenshot
+<!-- Features -->
 
-### Desktop
+### Key Features <a name="key-features"></a>
 
-![Preview](not available yet)
 
-### Mobile
+- **[SPA]**
+- **[Redux Toolkit]**
+- **[Redux MiddleWare Asyncthunk]**
 
-![Preview](not available yet)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Getting Started
+<!-- LIVE DEMO -->
 
-To get a local copy up and running follow these simple example steps.
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+
+- [Live Demo Link](https://react-reduxtoolkit-capston.onrender.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+- npx Create-react-app (CRA)
+- npm install
+- npm Install @reduxjs/toolkit react-redux
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-To understand the project you must have a basic knowledge of HTML, CSS and Javascript and most importantly React.js.
+In order to run this project you need:
+-VSCODE
+- npm start
 
 ### Setup
 
-To run this project one must have Visual Studio (VS) Code installed and running.
+Clone this repository to your desired folder:
+
+git clone:  https://github.com/codeWithHyder/react-capaston
+
+### Install
+
+Install this project with:
+
+npm install
+npm start
 
 ### Usage
 
-Clone and access the repository using the following commands on Git Bash:
-
-```
- cd PATH
- git clone 
- cd cryptoist
-```
-
-Open the directory in visual studio code by typing the following command in Git Bash:
-
-```
-code .
-```
-
-To install all the dependencies and start the program, use the following commands:
-
-```
-npm install
-npm start
-```
-
-### `npm start`
+To run the project, execute the following command:
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000 by default](http://localhost:3000) to view it in your browser.
 
-### `npm test`
+### Run tests
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run tests, run the following command:
 
-## Repo Links
+npm test
 
-- Repository: [Cryptoist]()
+### Deployment
 
-## Author
+You can deploy this project using:
+
+- gihub pages
+- netlify.com
+- render.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
 
 👤 **Ghulam Hyder Dar**
 
-### Socials :
-
-- GitHub: [@hyder](https://github.com/codeWithHyder)
+- GitHub: [@codeWithHyder](https://github.com/codeWithHyder)
 - Twitter: [@Hyder](https://twitter.com/@hyder3512)
 - LinkedIn: [@Hyder](https://www.linkedin.com/in/ghulam-hyder-dar/)
 
-## 🤝 Contributing
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+
+- [ Redux new features] **[New adons of react and redux if any]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/codeWithHyder/react-capaston/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-Thanks to:
 
-- [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the website template design that inspired mine.
+
+If you like this project please hit ⭐️ symbol
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+
+I would like to thank:
+ 
+
+- [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the website template design that inspired me.
 - [CoinGecko](https://www.coingecko.com/en/api/documentation) for the crypto market data and other important metrics.
 - [Flaticon](https://www.flaticon.com/) for the icons.
 
-## 📝 License
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
