@@ -41,7 +41,7 @@
 
 # 📖 [CRYPTOIST] <a name="about-project"></a>
 
-#[Project Demo] (https://www.loom.com/share/14098e73a85945ab840fa5d7c5c140ea)
+#[Project Demo] ('https://react-redux-capston-final.onrender.com/')
 
 
 
